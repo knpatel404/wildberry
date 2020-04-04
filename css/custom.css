@@ -1,0 +1,365 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+*{transition:all o.4s ease-in-out;}
+
+@font-face {
+    font-family: 'Geomet';
+    src: url('../fonts/Geometric706BT-BlackB_cd.woff2') format('woff2'),
+        url('../fonts/Geometric706BT-BlackB_cd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.navbar-marketing{
+    background: #f7f7f7!important;
+
+}
+header{
+    background: #f7f7f7!important;
+}
+
+.main-banner-image{
+    position: relative;
+    margin-left: -245px;
+    left: 50%;
+    margin-top: 3rem;
+    z-index: 1;
+    width: 100%;
+    top: 0rem;
+}
+.page-header {
+    position: relative;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 2rem;
+}
+.banner-img{
+    height: 500px;
+}
+
+.navbar-marketing .navbar-brand img {
+    height: 4rem;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.section-title{
+    font-family: 'Geomet';
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 50px;
+    color: #3a2f8e;
+}
+
+.section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.page-header-content .page-header-text{
+    line-height: 25px;
+    color: #333!important;
+    opacity: 1;
+    margin-top: 20px;
+    font-size: 16px!important;
+}
+
+.page-header-content .page-header-btn{
+    line-height: 28px;
+    color: #e736b5!important;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.navbar-marketing .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    color:#2e2e2e;
+}
+
+.navbar-marketing .navbar-nav .nav-item.active .nav-link {
+    font-weight: 600;
+    color:#e736b5;
+}
+
+.section-sub-title{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 14px;
+}
+
+.mission-container{
+    background: rgb(191,74,155);
+background: linear-gradient(126deg, rgba(191,74,155,1) 0%, rgba(62,48,143,1) 100%);
+    margin-top: 30px;
+    padding: 30px;
+    color: #fff;
+    padding-right: 35%;
+}
+.section-value{
+    position: relative;
+}
+.section-banner{
+    background: #ffb41d;
+    position: absolute ;
+    right: 0;
+    top:150px;
+    padding-top: 3rem;
+    z-index: 1;
+
+}
+
+.svg-inline--fa{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer-brand-title{
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Geomet';
+    font-weight: normal;
+}
+.footer-brand-sub-text{
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer-brand-imp-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #e736b5;
+    padding-top: 15px;
+}
+
+.text-blue-dark{
+    color:#3a2f8e!important
+}
+
+.bg-blue-dark{
+    background-color: #3a2f8e;
+}
+
+.section-banner img{
+    background: #ffb41d;
+    width: 100%
+    
+    }
+
+    .footer{
+        background: #e4e4e4;
+        padding: 20px 0;
+        color: #2c2477;
+    }
+
+    .footer div{
+       font-weight: 600;
+        color: #2c2477;
+    }
+
+    .service-container{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .service-node{
+        background: #ebeff5;
+        height: 250px;
+        text-align: center;
+        font-family: 'Geomet';
+        font-size: 28px;
+        color:#474747;
+        border: 1px solid #d0d0d0;
+    }
+
+    .service-node p{
+       padding-bottom: 2rem;
+    }
+
+    .service-node .image-node{
+        background-color: #656e74;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 85px;
+        display: inline-block;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .service-node:hover .image-node{
+        background-color: #2c2477;
+       transition: all 0.3s ease-in-out;
+    }
+
+    .service-node .image-node img{
+        opacity: 0.8;
+    }
+    .service-node:hover .image-node img{
+        opacity: 1;
+    }
+    .navbar-marketing .navbar-nav .nav-item ul
+    {
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        position: absolute;
+        z-index: 100;
+        background: #fff;
+        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+        font-size: 14px;
+        line-height: 25px;
+        color: #555;
+        opacity: 0;
+        top:80px;
+        transition: all 0.4s ease-in-out;
+    }
+    .navbar-marketing .navbar-nav .nav-item:hover ul
+    {
+        top:70px;
+        opacity: 1;
+        transition: all 0.4s ease-in-out;
+    }
+    .navbar-marketing .navbar-nav .nav-item ul li 
+    {
+        list-style: none;
+    }
+
+    .navbar-marketing .navbar-nav .nav-item ul li a
+    {
+        font-weight: 600;
+        color: #999;
+        transition: all 0.3s ease-in-out;
+    }
+   
+    .navbar-marketing .navbar-nav .nav-item ul li a:hover
+    {
+        text-decoration: none;
+        color: #222222;
+        transition: all 0.3s ease-in-out;
+    }
+   
+    .inner-page .banner-img {
+        height: 300px;
+    }
+
+    .inner-page header .section-title, .inner-page header .page-header-text {
+        color: #fff!important;
+    }
+
+    .inner-page .banner-img {
+        height: 300px;
+    }
+
+    .inner-page header {
+        background: rgb(191,74,155)!important;
+        background: linear-gradient(126deg, rgba(191,74,155,1) 0%, rgba(62,48,143,1) 100%)!important;
+    }
+
+    .inner-page .main-banner-image{
+        width: 65%;
+        margin-left: -165px;
+    }
+
+@media (max-width:992px){
+    .navbar-marketing .navbar-nav .nav-item ul
+    {
+        box-shadow:none;
+        position: static;
+        z-index: 100;
+        background: transparent;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        font-size: 14px;
+        line-height: 25px;
+        color: #555;
+        opacity: 1;
+    }
+    .page-header {
+        position: relative;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .section-banner{
+        
+        position: static ;
+        right: initial;
+        top:initial;
+        padding-top: 2rem;
+        margin: 30px 25px 0;
+        }
+
+        .mission-container{
+            margin-top: 0;
+            padding-right: 1.5rem;
+        }
+    .service-node{
+        background: #ebeff5;
+        height: 250px;
+        text-align: center;
+        font-family: 'Geomet';
+        font-size: 22px;
+        color:#474747;
+        border: 1px solid #d0d0d0;
+    }
+
+    .service-node .image-node{
+        background-color: #656e74;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 55px;
+        display: inline-block;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .service-node .image-node img{
+        width: 60%
+    }
+
+}
+
+@media (max-width:768px){
+    
+    .navbar-marketing .navbar-nav {
+        padding: 1rem 1.75rem;
+        border: 1px dashed #d3d3d3;
+        background: #fff;
+        margin-top: 15px;
+    }
+    .section-title {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .page-header {
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .main-banner-image {
+        position: relative;
+        margin-left: -55%;
+        left: 50%;
+        margin-top: 3rem;
+        width: 108%;
+    }
+    
+}
+
+@media (max-width:767px){
+    
+
+    .banner-img{
+        height: 200px;
+    }
+}
